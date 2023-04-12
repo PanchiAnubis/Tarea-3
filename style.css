@@ -32,11 +32,11 @@ ul.nav li.nav-right {
 ul.nav li a {
     display: block;
     text-decoration: none;
-    min-height: 16px;
+    min-height: 20px;
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #666;
+    color: #141313;
 }
   
 ul.topnav li a:hover {
@@ -62,8 +62,6 @@ ul.topnav li a:hover {
 .container {
     width: 100%;
     margin: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
   
 .row {
@@ -75,32 +73,69 @@ ul.topnav li a:hover {
 
 div.box {
     text-align: center;
-    margin: 24px;
+    margin: 10px;
+    margin-left: 100px;
     height: 700px;
     padding: 36px 24px 40px 24px;
     border-radius: 10px;
     background-color: #e2b3d9;
     box-shadow: 0 0 0 1px rgba(0,0,0,.15),
       0 2px 3px 0 rgba(0,0,0,.1);
-  }
+}
+
+div.projects{
+    text-align: center;
+    height: 250px;
+    margin-right: 50px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 10px;
+    background-color: #e2b3d9;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+      0 2px 3px 0 rgba(0,0,0,.1);
+}
 
   div.box2 {
     text-align: center;
-    margin: 24px;
-    height: 700px;
-    padding: 36px 24px 40px 24px;
-    background-color: #fff;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 800px;
+    padding: 0px 24px 0px 24px;
   }
 
   div.icon1 img{
     display: block;
     margin: auto;
-    width: 300px;
+    width: 250px;
     height: 300px;
     border-radius: 10%;
   }
 
-  .aboutme{
+  .left{
     text-align: left;
     text-align: justify;
   }
+
+  div.details{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+  }
+  div.icon{
+    width: 20%;
+  }
+
+  img.icons{
+    width:100%;
+  }
+
+  h4.info{
+    width: 80%;
+  }
+
+  div.proyectos{
+    width: 100%;
+    display: flex;
+  }
+
