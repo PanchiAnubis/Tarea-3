@@ -74,7 +74,7 @@ ul.topnav li a:hover {
 div.box {
     text-align: center;
     margin: 10px;
-    margin-left: 100px;
+    margin-left: 80px;
     height: 700px;
     padding: 36px 24px 40px 24px;
     border-radius: 10px;
@@ -97,8 +97,8 @@ div.projects{
   div.box2 {
     text-align: center;
     margin: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     height: 800px;
     padding: 0px 24px 0px 24px;
   }
